@@ -1,0 +1,17 @@
+# Track only authored config. Everything else under ~/.claude is written by Claude Code (transcripts, history, credentials, caches) and must stay local.
+/*
+!/.gitignore
+!/.gitattributes
+!/CLAUDE.md
+!/README.md
+!/settings.json
+!/keybindings.json
+!/.for-user/
+!/scripts/
+!/agents/
+!/commands/
+!/rules/
+!/hooks/
+!/output-styles/
+!/themes/
+!/workflows/

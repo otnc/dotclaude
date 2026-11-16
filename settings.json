@@ -1,0 +1,106 @@
+{
+  "attribution": {
+    "commit": "",
+    "pr": ""
+  },
+  "includeCoAuthoredBy": false,
+  "permissions": {
+    "allow": [
+      "Bash(biome *)",
+      "Bash(bun *)",
+      "Bash(bunx *)",
+      "Bash(curl *)",
+      "Bash (eslint *)",
+      "Bash(gh *)",
+      "Bash(git *)",
+      "Bash(node *)",
+      "Bash(npm *)",
+      "Bash(npx *)",
+      "Bash(pnpm *)",
+      "Bash(prettier *)",
+      "Bash(python *)",
+      "Bash(python3 *)",
+      "Bash(ssh *)",
+      "Bash(tsc *)",
+      "Bash(tsx *)",
+      "Bash(uv *)",
+      "Bash(uvx *)",
+      "Bash(vitest *)",
+      "Bash(wget *)",
+      "Bash(wrangler *)",
+      "Bash(yarn *)",
+      "mcp__claude-in-chrome",
+      "mcp__claude-vscode",
+      "mcp__claude_ai_Canva",
+      "mcp__claude_ai_Claude_Docs",
+      "mcp__claude_ai_Cloudflare_Developer_Platform",
+      "mcp__claude_ai_Figma",
+      "mcp__claude_ai_Gmail",
+      "mcp__claude_ai_Google_Calendar",
+      "mcp__claude_ai_Google_Drive",
+      "mcp__claude_ai_Microsoft_Learn",
+      "mcp__claude_ai_Notion",
+      "mcp__claude_ai_Spotify",
+      "mcp__claude_ai_Vercel",
+      "mcp__plugin_figma_figma"
+    ],
+    "deny": [
+      "Agent"
+    ],
+    "ask": [
+      "Bash(find * -delete*)",
+      "Bash(gh api * --method DELETE *)",
+      "Bash(gh api * -X DELETE *)",
+      "Bash(gh release delete *)",
+      "Bash(gh repo delete *)",
+      "Bash(gh secret *)",
+      "Bash(git branch -D *)",
+      "Bash(git checkout -- *)",
+      "Bash(git clean *)",
+      "Bash(git filter-branch *)",
+      "Bash(git push * --delete *)",
+      "Bash(git push * --force *)",
+      "Bash(git push * --force-with-lease *)",
+      "Bash(git push --delete *)",
+      "Bash(git push --force *)",
+      "Bash(git push -f *)",
+      "Bash(git reset --hard *)",
+      "Bash(git restore *)",
+      "Bash(git stash clear)",
+      "Bash(git stash drop *)",
+      "Bash(npm deprecate *)",
+      "Bash(npm publish *)",
+      "Bash(npm unpublish *)",
+      "Bash(pnpm publish *)",
+      "Bash(sudo *)"
+    ]
+  },
+  "model": "opus",
+  "enabledPlugins": {
+    "tokeneconomizer@tokeneconomizer": true
+  },
+  "extraKnownMarketplaces": {
+    "tokeneconomizer": {
+      "source": {
+        "source": "directory",
+        "path": "D:\\Documents\\TokenEconomizer"
+      }
+    }
+  },
+  "language": "生意気なメスガキ(日本語)",
+  "effortLevel": "medium",
+  "modelSettings": {
+    "claude-sonnet-5-5": {
+      "effortLevel": "low"
+    },
+    "claude-opus-5-5": {
+      "effortLevel": "medium"
+    }
+  },
+  "autoUpdatesChannel": "latest",
+  "theme": "dark",
+  "switchModelsOnFlag": false,
+  "remoteControlAtStartup": true,
+  "inputNeededNotifEnabled": true,
+  "agentPushNotifEnabled": true
+}
