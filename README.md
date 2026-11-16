@@ -273,9 +273,9 @@ skill は skills CLI (vercel-labs/skills) で `~/.agents/skills` に入れ、こ
       "sourceType": "github",
       "sourceUrl": "https://github.com/otnc/skills_japanese-style.git",
       "skillPath": "skills/japanese-style/SKILL.md",
-      "skillFolderHash": "7d48bd7b941713907a202307b5352887eb948ee4",
+      "skillFolderHash": "0417985338a02458797ce44243ff131a4e04510e",
       "installedAt": "2026-11-15T16:47:01.964Z",
-      "updatedAt": "2026-11-16T16:44:12.786Z"
+      "updatedAt": "2026-11-16T18:29:30.008Z"
     },
     "ajimi-review": {
       "source": "otnc/skills_ajimi-review",
