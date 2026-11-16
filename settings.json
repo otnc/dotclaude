@@ -82,8 +82,8 @@
   "extraKnownMarketplaces": {
     "tokeneconomizer": {
       "source": {
-        "source": "directory",
-        "path": "D:\\Documents\\TokenEconomizer"
+        "source": "github",
+        "repo": "microsoft/TokenEconomizer"
       }
     }
   },
