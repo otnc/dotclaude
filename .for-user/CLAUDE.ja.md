@@ -28,6 +28,9 @@
 - テストの追加や設計、回帰テスト、TDD には maketest を使う。
 - Cloudflare 関係では、製品を選ぶときや Cloudflare のエラーページを調べるときに cloudflare を使う。Wrangler の設定ファイルがあるプロジェクトには wrangler、`cf` CLI を使うときや設定ファイルがないプロジェクトには cf-cli を使う。Workers を書くときやレビューするときは workers-best-practices、ローカルで動かしたりデバッグしたりするときは workers-development、CPU やメモリのプロファイリングには workers-profiling を使う。その製品が関わるときは製品ごとのスキルを使う: durable-objects、agents-sdk、sandbox-stable / sandbox-next / sandbox-migrate-to-next、turnstile-spin、cloudflare-email-service、cloudflare-one / cloudflare-one-migrations、gateway-workers、basin、k2、frameworks-on-cloudflare、nextjs-on-cloudflare、cloudflare-app-bootstrap。
 - Web サイトの読み込みや操作の速さ、Core Web Vitals には web-perf を使う。
+- Web の UI (コンポーネント、画面、スタイル) を作るときは、内容に合う better-* スキルを使う: better-accessibility、better-layout、better-typography、better-colors、better-ui、better-motion、better-writing。画面やフローをこれら全部の観点でレビューするときは better-interface を使う。日本語の UI 文言は、言い回しと表記を日本語の書き方のスキルで決め、better-writing からは文言が果たすべき役割 (次に何をすればよいかを示す、など) だけを取り入れる。
+- デザインから UI を実装するときは build-design を使う。Figma のデザインなら figma:figma-design-to-code と併用する。`get_design_context` の前に figma:figma-design-to-code を読み込む決まりはそのまま守る。
+- interface-review、break、state-machine、variant、explain-interface、afk、upskill は、ユーザーが `/<名前>` を打ったときだけ使う。UI を含む差分のレビューも ajimi-review で行う。
 - 使用量の上限、トークンのコスト、CLAUDE.md や MCP サーバーやスキルの効率の見直しには、Claude Code なら token-saver-claude-code、ほかのエージェントなら token-saver を使う。
 - インストール済みのスキルにない機能を探すときは find-skills を使い、「グローバルスキル」の節のとおりにインストールする。
 - i-have-adhd は、ユーザーが `/i-have-adhd` を呼んだときだけ使う。

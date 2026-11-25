@@ -26,6 +26,9 @@ Japanese prose skills are under "Japanese writing". Add a line here for each new
 - Adding or designing tests, regression tests, TDD: maketest.
 - Cloudflare: cloudflare for choosing a product or diagnosing a Cloudflare error page. wrangler for projects with a Wrangler config, cf-cli for the `cf` CLI or projects without one. workers-best-practices for writing or reviewing Workers, workers-development for local runs and debugging, workers-profiling for CPU or memory profiling. Product skills when that product is involved: durable-objects, agents-sdk, sandbox-stable / sandbox-next / sandbox-migrate-to-next, turnstile-spin, cloudflare-email-service, cloudflare-one / cloudflare-one-migrations, gateway-workers, basin, k2, frameworks-on-cloudflare, nextjs-on-cloudflare, cloudflare-app-bootstrap.
 - Website loading or interaction performance, Core Web Vitals: web-perf.
+- Web UI work (components, screens, styling): the matching better-* skill: better-accessibility, better-layout, better-typography, better-colors, better-ui, better-motion, better-writing. For a review of a whole screen or flow across all of them: better-interface. For Japanese UI copy, the Japanese writing skills decide wording and notation; better-writing only adds what the copy must do, such as telling people what to do next.
+- Building UI from a design: build-design. For a Figma design, use it together with figma:figma-design-to-code, which stays mandatory before `get_design_context`.
+- Only when the user types `/<name>`: interface-review, break, state-machine, variant, explain-interface, afk, upskill. ajimi-review stays the review skill for diffs that touch UI.
 - Usage limits, token cost, or efficiency audits of CLAUDE.md, MCP servers, and skills: token-saver-claude-code in Claude Code, token-saver in other agents.
 - A capability no installed skill covers: find-skills, then install per "Global skills".
 - i-have-adhd: only when the user invokes `/i-have-adhd`.
