@@ -47,11 +47,11 @@ skill は skills CLI (vercel-labs/skills) で `~/.agents/skills` に入れ、こ
       "source": "cloudflare/skills",
       "sourceType": "github",
       "sourceUrl": "https://github.com/cloudflare/skills.git",
-      "commit": "5108325ecceabc899c761e07aa617b09c02445ee",
+      "commit": "ff191de7d903788eceaf516a514ae7d3b56b924a",
       "skillPath": "skills/cloudflare/SKILL.md",
-      "skillFolderHash": "600913aa4edcffe1cc389b8757b586979a13bc47",
+      "skillFolderHash": "6eb1e83fc674d5e52e56b61cf2873aa32eb44317",
       "installedAt": "2026-09-27T05:07:30.558Z",
-      "updatedAt": "2026-11-23T13:17:23.582Z"
+      "updatedAt": "2026-11-25T15:19:13.225Z"
     },
     "cloudflare-email-service": {
       "source": "cloudflare/skills",
@@ -266,11 +266,11 @@ skill は skills CLI (vercel-labs/skills) で `~/.agents/skills` に入れ、こ
       "source": "nanaism/yomiyasu",
       "sourceType": "github",
       "sourceUrl": "https://github.com/nanaism/yomiyasu.git",
-      "commit": "ddf365b5d5b36a7aa4ffab798dce1b694dbb1afd",
+      "commit": "3979c750b5e1fe9892bd47bb354f0fb51d534ff2",
       "skillPath": "skills/yomiyasu/SKILL.md",
-      "skillFolderHash": "40741c122d70db04446d4f636f0d6e920c8b9a56",
+      "skillFolderHash": "1ad18b0ff92f298e17e54d4890f69a6c04b0f347",
       "installedAt": "2026-10-24T15:29:11.745Z",
-      "updatedAt": "2026-11-23T13:09:57.687Z"
+      "updatedAt": "2026-11-25T15:19:26.950Z"
     },
     "use-modern-go": {
       "source": "JetBrains/go-modern-guidelines",
