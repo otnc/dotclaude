@@ -76,6 +76,16 @@
     ]
   },
   "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash ~/.claude/hooks/upper-drive-cwd-env.sh"
+          }
+        ]
+      }
+    ],
     "Stop": [
       {
         "hooks": [
