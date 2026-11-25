@@ -6,7 +6,8 @@ Claude Code のユーザー設定 (`~/.claude`) を管理するリポジトリ�
 
 - `CLAUDE.md`: すべてのプロジェクトで読み込まれるグローバル指示。正は英語版
 - `.for-user/`: `CLAUDE.md` の和訳と、ほかのマシンに skill を入れるときの引継書
-- `settings.json`: 権限、モデル、プラグインなどのユーザー設定
+- `settings.json`: 権限、モデル、プラグイン、hook などのユーザー設定
+- `hooks/japanese-guard.py`: 応答が英語主体なら日本語で書き直させる Stop hook。[minorun365/claude-code-japanese-guard](https://github.com/minorun365/claude-code-japanese-guard) の `4434ef4` をそのまま置いている。Windows の Python は標準入出力が cp932 になり日本語が化けるので、`settings.json` では `python3 -X utf8` で起動する
 - `scripts/`: このリポジトリを保守するためのスクリプト
 
 ## ほかのマシンで使う
