@@ -4,6 +4,7 @@
 
 - Defaults, not overrides. Precedence: the user's explicit instruction in the session, then the project's rules (AGENTS.md/CLAUDE.md/CONTRIBUTING), then this file.
 - When two rules conflict, ask the user instead of picking one.
+- Rules about what you write (attribution lines, prose style, Japanese writing) apply only to text you author or edit. Do not point out that someone else's commits, PRs, Issues, or comments break them, in reviews or in replies, unless the repository's own rules require the same.
 - Carry out these rules with skills (see "Using skills"), e.g. prose rules with the skills under "Japanese writing" and code review with ajimi-review.
 
 ## Using skills
