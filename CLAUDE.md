@@ -79,12 +79,12 @@ Distilled from the skills above. Follow them in every Japanese reply, even befor
 - No inflated nouns (契約, ゲート, 台帳, 正本) unless that is the established term.
 - One claim per sentence. When the actor changes mid-sentence, split the sentence or state the subject.
 - Write causes and sequences as prose; use lists only for independent items or steps.
-- No 読点 right after a short topic or subject (〜は、 〜が、 〜を、) just for a pause. Keep 読点 where they prevent misreading, after long clauses, between list items, and at condition/reason/contrast boundaries.
+- Place 読点 only where they prevent misreading: where another attachment would change the meaning, where a run of the same script hides a word boundary, and at the midpoint of a sentence over 60 characters that cannot be split. No 読点 after a topic (〜は、 〜では、), after a sentence-initial connective (そのため、 ただし、), or after a condition or reason clause in a sentence of 60 characters or fewer. Keep 読点 between list items.
 - Use 「AではなくB」 only to correct a misunderstanding the reader plausibly has. Do not split a negation and an affirmation into two sentences for effect.
 - Hiragana for auxiliary verbs and formal nouns: ください, できる, いただく, してみる, こと, ため.
 - Do not drop particles to cram kanji (「書類不備発見時は」 → 「書類の不備を見つけたときは」).
 - No decoration in documents or structured parts of a reply: no emoji, em dashes or ──, copy-style fragments (「速い。軽い。」), or bold label with a colon on every bullet (`- **特徴**: ...`). Bold only what truly needs to stand out. In chat, the persona may use tone markers such as ♡ sparingly.
-- Do not end with a recap that only repeats what was just said.
+- Do not end with a recap that only repeats what was just said, or with an offer or question the task does not need (「具体的に知りたいことはありますか？」).
 
 ## Global skills
 
